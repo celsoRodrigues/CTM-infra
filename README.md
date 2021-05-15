@@ -40,7 +40,7 @@ Creates the VPC, using the VPC AWS module. This is a battle tested flexible modu
 
 - versions.tf: <br/>
 Sets restrictions regarding versions available
-- Security-groups.tf: <br/>
+- security-groups.tf: <br/>
 Sets the security groups used in the project
 - outputs.tf: <br/>
 Returns information about the build
@@ -53,8 +53,8 @@ In this file the cluster and worker nodes are created.
 
 | Modules used                  | 
 | ----------------------------- | 
-| terraform-aws-modules/eks/aws | 
-| terraform-aws-modules/vpc/aws | 
+| Terraform-aws-modules/eks/aws | 
+| Terraform-aws-modules/vpc/aws | 
 
 
 - Requirements:
@@ -62,7 +62,7 @@ In this file the cluster and worker nodes are created.
 | Requirements                          | 
 | ------------------------------------- | 
 | Clster: 2 Worker nodes t2.small       | 
-| root volume type GP2                  |
+| Root volume type GP2                  |
 | All assets on a separate VPC          |
 
 
