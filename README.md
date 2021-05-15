@@ -13,8 +13,11 @@ This repo is for CTM-infra:
 The AWS user needs the necessary permissions to build this project. For production a restriction guide is advised here(https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/docs/iam-permissions.md)
 
 - Build:
-1. clone the project
-2. In the main folder build with the following commands:<br />
+1. clone the project clone 
+```
+   $ git clone git@github.com:celsoRodrigues/CTM-infra.git
+```
+3. In the main folder build with the following commands:<br />
 ```
    $ terraform plan 
    $ terraform apply
