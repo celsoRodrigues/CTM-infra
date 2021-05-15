@@ -1,5 +1,5 @@
 # CTM-infra
-ctm infrastructure on AWS
+CTM infrastructure on AWS
 
 
 The project is composed by 3 repos:<br/>
@@ -19,16 +19,20 @@ might be needed.
 ```
     https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 ```
-3. clone the project clone 
+3. Clone the project clone 
 ```
    $ git clone git@github.com:celsoRodrigues/CTM-infra.git
 ```
-3. install terraform (https://learn.hashicorp.com/tutorials/terraform/install-cli)
+3. Install terraform (https://learn.hashicorp.com/tutorials/terraform/install-cli)
 4. In the main folder build with the following commands:<br />
 ```
    $ terraform init
    $ terraform plan 
    $ terraform apply
+```
+5. Inside the CTM-infra repo, configure kubectl:<br/>
+```
+  $ aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
 ```
 The project contains 5 files:
 - vpc.tf: <br/> 
