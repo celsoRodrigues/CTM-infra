@@ -20,7 +20,8 @@ might be needed.
 ```
    $ git clone git@github.com:celsoRodrigues/CTM-infra.git
 ```
-3. In the main folder build with the following commands:<br />
+3. install terraform (https://learn.hashicorp.com/tutorials/terraform/install-cli)
+4. In the main folder build with the following commands:<br />
 ```
    $ terraform init
    $ terraform plan 
