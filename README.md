@@ -32,40 +32,6 @@ might be needed.
 ```
 5. Inside the CTM-infra repo, configure kubectl:<br/>
 ```
-  # CTM-infra
-CTM infrastructure on AWS
-
-
-The project is composed by 3 repos:<br/>
-- CTM-infra<br/>
-- CTM-Resources<br/>
-- CTM-application<br/>
-    
-
-This repo is for CTM-infra:<br/>
-Here you will find all files to create an EKS cluster in terraform.<br/>
-- Permissions:<br/>
-The AWS CLI user needs the necessary permissions to build this project. For production a restriction guide is advised here(https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/docs/iam-permissions.md) for EKS, but additional permissions
-might be needed.
-
-- Build:
-1. Setup your AWS CLI user 
-```
-    https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
-```
-3. Clone the project
-```
-   $ git clone git@github.com:celsoRodrigues/CTM-infra.git
-```
-3. Install terraform (https://learn.hashicorp.com/tutorials/terraform/install-cli)
-4. In the main folder build with the following commands:<br />
-```
-   $ terraform init
-   $ terraform plan 
-   $ terraform apply
-```
-5. Inside the CTM-infra repo, configure kubectl:<br/>
-```
   $ aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
 ```
 The project contains 5 files:
