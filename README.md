@@ -19,6 +19,7 @@ The AWS user needs the necessary permissions to build this project. For producti
 ```
 3. In the main folder build with the following commands:<br />
 ```
+   $ terraform init
    $ terraform plan 
    $ terraform apply
 ```
