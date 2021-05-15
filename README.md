@@ -3,9 +3,9 @@ ctm infrastructure on AWS
 
 
 The project is composed by 3 repos:<br/>
-    CTM-infra<br/>
-    Resources<br/>
-    application<br/>
+       CTM-infra<br/>
+       Resources<br/>
+       application<br/>
     
 
 This repo is for CTM-infra:
