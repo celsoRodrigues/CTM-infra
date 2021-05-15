@@ -54,4 +54,6 @@ In this file the cluster and worker nodes are created.
 | All assets on a separate VPC          |
 
 
-
+- Online sources:
+https://learn.hashicorp.com/tutorials/terraform/eks
+https://managedkube.com/kubernetes/k8sbot/troubleshooting/imagepullbackoff/2019/02/23/imagepullbackoff.html
