@@ -10,10 +10,12 @@ The project is composed by 3 repos:
 
 This repo is for CTM-infra:
 - Permissions:<br/>
-The AWS user needs the necessary permissions to build this project. For production a restriction guide is advised here(https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/docs/iam-permissions.md)
+The AWS CLI user needs the necessary permissions to build this project. For production a restriction guide is advised here(https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/docs/iam-permissions.md) for EKS, but additional permissions
+might be needed.
 
 - Build:
-1. clone the project clone 
+1. Setup your AWS CLI user 
+2. clone the project clone 
 ```
    $ git clone git@github.com:celsoRodrigues/CTM-infra.git
 ```
