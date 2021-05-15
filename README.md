@@ -61,7 +61,7 @@ In this file the cluster and worker nodes are created.
 
 | Requirements                          | 
 | ------------------------------------- | 
-| Clster: 2 Worker nodes t2.small       | 
+| Cluster: 2 Worker nodes t2.small       | 
 | Root volume type GP2                  |
 | All assets on a separate VPC          |
 
