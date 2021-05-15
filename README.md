@@ -8,7 +8,8 @@ The project is composed by 3 repos:<br/>
 - application<br/>
     
 
-This repo is for CTM-infra:
+This repo is for CTM-infra:<br/>
+Here you will find all files to create an EKS cluster in terraform.<br/>
 - Permissions:<br/>
 The AWS CLI user needs the necessary permissions to build this project. For production a restriction guide is advised here(https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/docs/iam-permissions.md) for EKS, but additional permissions
 might be needed.
