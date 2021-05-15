@@ -19,7 +19,7 @@ might be needed.
 ```
     https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 ```
-3. Clone the project clone 
+2. Clone the project clone 
 ```
    $ git clone git@github.com:celsoRodrigues/CTM-infra.git
 ```
