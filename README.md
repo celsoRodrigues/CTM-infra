@@ -24,22 +24,23 @@ The project contains 5 files:
 - vpc.tf: <br/> 
 Creates the VPC, using the VPC AWS module. This is a battle tested flexible module.
 
-- versions.tf: 
+- versions.tf: <br/>
 Sets restrictions regarding versions available
-
-- Security-groups.tf: 
+- Security-groups.tf: <br/>
 Sets the security groups used in the project
-
-- outputs.tf: 
+- outputs.tf: <br/>
 Returns information about the build
-
-- kubernetes.tf: 
+- kubernetes.tf: <br/>
 Sets information for host, token and cert.
-
-- eks-kluster.tf:
+- eks-kluster.tf: <br/>
 In this file the cluster and worker nodes are created.
 
+- Modules:
 
-       
+| Modules used                  | 
+| ----------------------------- | 
+| terraform-aws-modules/eks/aws | 
+| terraform-aws-modules/vpc/aws | 
+
 
 
