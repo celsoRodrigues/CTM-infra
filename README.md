@@ -42,4 +42,13 @@ In this file the cluster and worker nodes are created.
 | terraform-aws-modules/vpc/aws | 
 
 
+- Requirements:
+
+| Requirements                          | 
+| ------------------------------------- | 
+| Clster: 2 Worker nodes t2.small       | 
+| root volume type GP2                  |
+| All assets on a separate VPC          |
+
+
 
