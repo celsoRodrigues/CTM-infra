@@ -16,7 +16,10 @@ might be needed.
 
 - Build:
 1. Setup your AWS CLI user 
-2. clone the project clone 
+```
+    https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+```
+3. clone the project clone 
 ```
    $ git clone git@github.com:celsoRodrigues/CTM-infra.git
 ```
