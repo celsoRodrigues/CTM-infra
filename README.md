@@ -33,6 +33,13 @@ The project is composed by 3 repos:<br/>
 
 This repo is for CTM-infra:<br/>
 Here you will find all files to create an EKS cluster in terraform.<br/>
+
+#ISSUES:<br/>
+- Access needs to be reviewed, due to the lack of time I used a privileged user to build this cluster
+- Some providers need kubectl installed, This makes terraform build the stack in 2 stages instead of one.
+- The ingress controller used could be helmified.
+- pipeline available only for code deployment
+
 - Permissions:<br/>
 The AWS CLI user needs the necessary permissions to build this project. For production a restriction guide is advised here(https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/docs/iam-permissions.md) for EKS, but additional permissions
 might be needed.
